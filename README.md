@@ -4,14 +4,14 @@ This program can convert an arbitrary image into a prime. Given an image, it wil
 
 ## Usage
 
-1. Open primify.nb with Mathematica
+1. Open `primify.nb` with Mathematica
 2. Replace the placeholder picture of a computer with your desired image (copy-paste or drag-and-drop). See [Image Considerations](#image-considerations) for optimal formatting.
 3. Run the preprocessing cells.
 4. Run the `Parallel Search` cell. Eventually, this will output a number. When it does, abort the cell (`Evaluation -> Abort Evaluation`).
 5. Copy this number into the `myPrime = ` cell.
 6. Run the following cells to ensure your image is indeed a prime, and to see how it looks.
 
-The Search take about 20-30 minutes for a 109x109 pixel image on my i7-12650H.
+The search takes about 20-30 minutes for a 109x109 pixel image on my i7-12650H.
 
 ## Image Considerations
 
